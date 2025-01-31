@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body {
+    background: linear-gradient(to bottom, #7cbfde, #d6b2b2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .weather-app {
+    background-color:rgb(246, 244, 244);
+    border-radius: 16px;
+    padding: 2rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .location {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #900808;
+  }
+
+  .weather-status {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    color: #666;
+  }
+
+  .temperature {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #FF8C00;
+  }
+
+  .icon {
+    font-size: 5rem;
+    color: #FFA500;
+  }
+
+  .details {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #555;
+  }
+
+  .city-input {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    
+  }
+
+  input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 70%;
+  }
+
+  button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    background-color: #FF8C00;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #ffa733;
+  }
+.weather-info{
+    padding-top: 10px;
+    height: 20px;
+   
+}
